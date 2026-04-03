@@ -1,6 +1,6 @@
-const apiKey = "b4db8aad42e0436fb4605111260304 "; // poné tu clave aquí
+const apiKey = "b4db8aad42e0436fb4605111260304"; // poné tu clave aquí
 const ciudad = "San Vicente,Buenos Aires";
-const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(ciudad)}&days=7&lang=es`;
+const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${encodeURIComponent(ciudad)}&days=7&lang=es`;
 const contenedor = document.getElementById("contenedor-tarjetas")
 
 
